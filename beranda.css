@@ -1,0 +1,263 @@
+body {
+    font-family: "Arial";
+    background-color: rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+    
+}
+.textjudul button{
+  background-color:  #59d6f8;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.textjudul button:hover{
+  background-color: #49aeca;;
+}
+.header{
+    margin-top: 20px;
+    height:80px;
+    padding: 10px 10px;
+    background-color: #59d6f8;
+    border-radius: 10px;
+}
+
+.header-list a{
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+.header-list a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.logo1 img{
+    float:left;
+    width:90px;
+    height:90px;
+    margin-top: -5px;
+}
+.logo2 img{
+  float: right;
+  border: none;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.header-list li{
+  cursor: pointer;;
+  float: left;
+  padding : 10px 10px;
+  margin-left:70px ;
+  color:rgb(39, 39, 39);
+  font-size: 18px;
+  font-weight: bold;
+}
+.header-list{
+  margin-left: 300px;
+  margin-top:22px;
+}
+.hero img{
+  float: left;
+  padding: 40px 40px;
+  border-radius: 50px;
+  height: 400px;
+  width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero2 img{
+  padding: 40px 40px;
+  border-radius: 50px;
+  height: 400px;
+  width: 750px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero3 img{
+  border-radius: 10px;
+  float: right;
+  border-radius: 50px;
+}
+.deskripsi h1{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 40px;
+}
+.textjudul h1{
+  margin-top: 100px;
+  margin-right: 10px;
+}
+
+.textjudul{
+  background-color: #2e3847;
+  text-align: center;
+  height: 2000px;
+  margin-top: 30px;
+  color: #f3f8ff;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+.textjudul p{
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+.textjudul2{
+  background-color: #e03939;
+  text-align: center;
+  height: 1000px;
+  margin-top: 70px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+.deskripsi2{
+  margin-top: 90px;
+}
+.deskripsi2 p{
+  padding: 25px 25px;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: -60px;
+}
+.deskripsi3{
+  text-align: justify;
+  float: left;
+  margin-left: 30px;
+}
+.kategori1{
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+}
+.kategori2{
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+}
+.kategori3{
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+}
+.list1{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  border-radius: 10px;
+}
+.list2{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  border-radius: 10px;
+}
+.list3{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  width: 170px;
+  border-radius: 10px;
+}
+.list4{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+}
+.list5{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+}
+.list6{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+}
+.list7{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  width: 150px;
+  border-radius: 10px;
+}
+.list8{
+  background-color: rgb(62, 31, 175);
+  color:white;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.footer {
+  border-radius: 10px;
+  background-color:  #59d6f8;
+  height: 200px;
+  margin-top: 30px;
+  color: #f3f8ff;
+  }
+  .footer-software{
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    color: #2e3847;
+  }
+  .footer-software a{
+    text-decoration: none;
+    color: #2e3847;
+  }
+  .footer-software a:hover{
+    color: #f3f8ff;
+  }
+  .footer-kontak{
+    float: left;
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #2e3847;
+  }
+  .footer-kontak a{
+    text-decoration: none;
+    color: #2e3847;
+  }
+  .footer-kontak a:hover{
+    color: #f3f8ff;
+  }
+
+  .footer-logo2 img{
+    cursor: pointer;
+    width: 50px;
+
+  }
+  .footer-logo img{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    margin-top: -20px;
+    font-size: 60px;
+    float: left;
+  }
+  .footer2 {
+    border-radius: 3px;
+    background-color:  #2e3847;
+    height: 50px;
+    margin-top: -40px;
+    color: #f3f8ff;
+    }
+    .footer2 p{
+      text-align: center;
+      padding-top: 15px;
+    }

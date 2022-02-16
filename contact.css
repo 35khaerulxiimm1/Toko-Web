@@ -1,0 +1,190 @@
+body {
+    font-family: "Arial";
+    background-color: rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+    
+}
+.textjudul button{
+  background-color:  #59d6f8;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.textjudul button:hover{
+  background-color: #49aeca;;
+}
+.header{
+    margin-top: 20px;
+    height:80px;
+    padding: 10px 10px;
+    background-color: #59d6f8;
+    border-radius: 10px;
+}
+
+.header-list a{
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+.header-list a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.header-list{
+    margin-left: 300px;
+    margin-top:22px;
+  }
+.logo1 img{
+    float:left;
+    width:90px;
+    height:90px;
+    margin-top: -5px;
+}
+.logo2 img{
+  float: right;
+  border: none;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.header-list li{
+    cursor: pointer;;
+    float: left;
+    padding : 10px 10px;
+    margin-left:70px ;
+    color:rgb(39, 39, 39);
+    font-size: 18px;
+    font-weight: bold;
+  }
+.main{
+    background-color: #2e3847;
+    text-align: center;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+.kontak h3{
+    float: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.lokasi{
+    float: right;
+    margin-right: 90px;
+    margin-top: 80px;
+    color: #2e3847;
+    width: 30%;
+    height: 70%;
+    background-color: #59d6f8;
+  border-radius: 10px;
+}
+.wangsap{
+    margin-top: 100px;
+    margin-right: 80px;
+    float: left;
+    margin-left: -50px;
+}
+.wangsap h3{
+    font-size: 35px;
+    color: #ffffff;
+
+}
+.wangsap img{
+    width: 90px;
+    height: 90px;
+}
+.instagram{
+margin-left: -80px;
+ margin-top: 137px;
+}
+
+.instagram h3{
+color: #ffffff;
+font-size: 35px;
+}
+.instagram img{
+width: 100px;
+height: 100px;
+}
+.footer {
+    border-radius: 10px;
+    background-color:  #59d6f8;
+    height: 200px;
+    margin-top: 30px;
+    color: #f3f8ff;
+    }
+    .footer-software{
+      float: left;
+      margin-left: 60px;
+      margin-top: 10px;
+      color: #2e3847;
+    }
+    .footer-software a{
+      text-decoration: none;
+      color: #2e3847;
+    }
+    .footer-software a:hover{
+      color: #f3f8ff;
+    }
+    .footer-kontak{
+      float: left;
+      margin-left: 80px;
+      margin-top: 10px;
+      color: #2e3847;
+    }
+    .footer-logo2{
+      float: right;
+      margin-right: 10px;
+      margin-top: 120px;
+    }
+    .footer-logo2 img{
+      cursor: pointer;
+      width: 50px;
+  
+    }
+    .footer-kontak a{
+        text-decoration: none;
+        color: #2e3847;
+      }
+      .footer-kontak a:hover{
+        color: #f3f8ff;
+      }
+    .footer-logo img{
+      height: 150px;
+      width: 150px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    .footer-logo {
+      margin-top: -20px;
+      font-size: 60px;
+      float: left;
+    }
+    .footer2 {
+      border-radius: 3px;
+      background-color:  #2e3847;
+      height: 50px;
+      margin-top: -40px;
+      color: #f3f8ff;
+      }
+      .footer2 p{
+        text-align: center;
+        padding-top: 15px;
+      }
+
+
+
+
+
+
+
+
+

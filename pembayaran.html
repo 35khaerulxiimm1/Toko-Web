@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pembayaran.css">
+    <link rel="shortcut icon" href="img/log6.svg">
+    <title>Pembayaran | Kreative Editor</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo1">
+            <img src="img/logo K.png" width="80" height="80"></div>
+            <div class="logo2">
+                <img src="img/icons8-cursor.svg">
+            </div>
+        <div class="header-list">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="produk.html"> Produk</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+                <li><a href="produk.html"> Pembayaran</a></li>
+            </ul>
+        </div>
+</div>
+
+<div calss="main">
+    <div class="produk">
+        <div class="software">
+            <h3>Daftar Software</h3>
+        </div>
+        <div class="produk1">
+            <img src="img/icons8-adobe-photoshop.gif">
+            <h3 id="ipt_namaBarang">Adobe <span style="color: rgb(16, 193, 247);">Photoshop</span></h3>
+            <h4 id="ipt_hargaBarang">Rp.150.000</h4>
+            <p><button onclick="hitungphotoshop()">Berlangganan Sekarang</button></p>
+        </div>
+        <div class="produk2">
+            <img src="img/icons8-adobe-premiere-pro.gif">
+            <h3>Adobe <span style="color: rgb(205, 24, 250);">Premiere Pro</span></h3>
+            <h4>Rp.200.000</h4>
+            <p><button onclick="hitungpremiere()">Berlangganan Sekarang</button></p>
+        </div>
+            <div class="produk3">
+                <img src="img/icons8-adobe-after-effects.gif">
+                <h3>Adobe <span style="color: rgb(161, 24, 252);"> After Effects</span></h3>
+                <h4>Rp.300.000</h4>
+                <p><button onclick="hitungaftereffects()">Berlangganan Sekarang</button></p>
+            </div>    
+    </div>
+    <div class="form">
+        <table>
+            <thead>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="2">HASIL BELANJA</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Kreative Editor</th>
+                </tr>
+                <tr>
+                    <td>Kelas Software</td>
+                    <td> <input type="text" name="" id="opt_namaBarang" disabled></td>
+                </tr>
+                <tr>
+                    <td>Harga Kelas</td>
+                    <td> <input type="text" name="" id="opt_hargaBarang" disabled></td>
+                </tr>
+                <tr>
+                    <td>Diskon</td>
+                    <td> <input type="text" name="" id="opt_diskon" disabled></td>
+                </tr>
+                <tr>
+                    <td>Harga Diskon</td>
+                    <td> <input type="text" name="" id="opt_hargaDiskon" disabled></td>
+                </tr>
+                <tr>
+                    <td>Total Harga</td>
+                    <td> <input type="text" name="" id="opt_totalHarga" disabled></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="berlangganan-sekarang">
+                        <a><button>Langganan Sekarang</button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="reset"><button onclick="reset()">Reset</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+<script>
+var namaBarang;
+var hargaBarang;
+var diskon;
+var totalHarga;
+
+function hitungphotoshop() {
+    namaBarang = document.getElementById("ipt_namaBarang").value;
+    hargaBarang = parseFloat(document.getElementById("ipt_hargaBarang").value);
+    diskon = hargaBarang
+    if (hargaBarang = 150000) {
+        diskon = 10;
+        namaBarang = "Photoshop";
+    }
+    hargaDiskon = (hargaBarang * diskon / 100);
+    totalHarga = (hargaBarang) - (hargaBarang * diskon / 100);
+    document.getElementById('opt_namaBarang').value = namaBarang;
+    document.getElementById('opt_hargaBarang').value = hargaBarang;
+    document.getElementById('opt_hargaDiskon').value = hargaBarang;
+    document.getElementById('opt_diskon').value = diskon + "%";
+    document.getElementById('opt_totalHarga').value = totalHarga;
+}
+function hitungpremiere() {
+    namaBarang = document.getElementById("ipt_namaBarang").value;
+    hargaBarang = parseFloat(document.getElementById("ipt_hargaBarang").value);
+    diskon = hargaBarang
+    if (hargaBarang = 200000) {
+        diskon = 15;
+        namaBarang = "Premiere Pro";
+    }
+    hargaDiskon = (hargaBarang * diskon / 100);
+    totalHarga = (hargaBarang) - (hargaBarang * diskon / 100);
+    document.getElementById('opt_namaBarang').value = namaBarang;
+    document.getElementById('opt_hargaBarang').value = hargaBarang;
+    document.getElementById('opt_hargaDiskon').value = hargaBarang;
+    document.getElementById('opt_diskon').value = diskon + "%";
+    document.getElementById('opt_totalHarga').value = totalHarga;
+}
+function hitungaftereffects() {
+    namaBarang = document.getElementById("ipt_namaBarang").value;
+    hargaBarang = parseFloat(document.getElementById("ipt_hargaBarang").value);
+    diskon = hargaBarang
+    if (hargaBarang = 300000) {
+        diskon = 20;
+        namaBarang = "After Effects";
+    }
+    hargaDiskon = (hargaBarang * diskon / 100);
+    totalHarga = (hargaBarang) - (hargaBarang * diskon / 100);
+    document.getElementById('opt_namaBarang').value = namaBarang;
+    document.getElementById('opt_hargaBarang').value = hargaBarang;
+    document.getElementById('opt_hargaDiskon').value = hargaDiskon;
+    document.getElementById('opt_diskon').value = diskon + "%";
+    document.getElementById('opt_totalHarga').value = totalHarga;
+}
+
+function reset() {
+    document.getElementById('ipt_namaBarang').value = '';
+    document.getElementById('ipt_hargaBarang').value = '';
+    document.getElementById('opt_namaBarang').value = '';
+    document.getElementById('opt_hargaBarang').value = '';
+    document.getElementById('opt_diskon').value = '';
+    document.getElementById('opt_hargaDiskon').value = '';
+    document.getElementById('opt_totalHarga').value = '';
+}
+</script>
+
+<div class="footer">
+    <div class="footer-logo">
+        <a href="index.html"><img src="img/logo K.png" alt=""></a>
+    </div>
+<div class="footer-software">
+    <h4>Software</h4>
+    <a href="produk.html">
+        <p>Photoshop</p>
+    </a>
+    <a href="produk.html">
+        <p>Premiere Pro</p>
+    </a>
+    <a href="produk.html">
+        <p>After Effects</p>
+    </a>    				
+</div>
+<div class="footer-kontak">
+    <h4>Kontak Kami</h4>
+    <p><a href="https://web.whatsapp.com/">WhatsApp</a></p>
+    <p><a href="https://www.instagram.com/">Instagram</a></p>
+</div>
+    <div class="footer-logo2">
+        
+    </div>
+</div>
+<div class="footer2">
+    <p>Copyright © Kretive Editor 2022</p>
+</div>
+</div>
+
+</body>
+</html>
